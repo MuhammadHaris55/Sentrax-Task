@@ -28,7 +28,7 @@ class transactionDetailsRows extends StatelessWidget {
             ),
           ),
           SizedBox(
-            width: MediaQuery.of(context).size.width * 0.50,
+            width: MediaQuery.of(context).size.width * 0.45,
             child: Text(
               value,
               overflow: TextOverflow.ellipsis,

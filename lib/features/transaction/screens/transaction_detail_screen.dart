@@ -21,7 +21,8 @@ class _TransactionDetailScreenState extends State<TransactionDetailScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.backgroundColor,
+      // backgroundColor: AppColors.backgroundColor,
+      backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: AppColors.primaryColor,
         title: const Text('Details'),
@@ -68,7 +69,8 @@ class _TransactionDetailScreenState extends State<TransactionDetailScreen> {
               padding: const EdgeInsets.all(20.0),
               width: double.infinity,
               decoration: const BoxDecoration(
-                color: Colors.white,
+                // color: Colors.white,
+                color: AppColors.backgroundColor,
                 borderRadius: BorderRadius.all(Radius.circular(20.0)),
               ),
               child: Column(
